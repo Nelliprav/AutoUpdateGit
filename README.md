@@ -10,9 +10,12 @@
 
 - requests - the module does not need to be imported.
 
+```py
+pip install AutoUpdateGit
+```
 
 ```py
-from autoupdategit import *
+from AutoUpdateGit import *
 
 githubraw_url="https://raw.githubusercontent.com/username/repo/main/file.py" # url raw file
 
