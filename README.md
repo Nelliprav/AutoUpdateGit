@@ -12,7 +12,7 @@
 
 
 ```py
-from AutoUpdateGit import *
+from autoupdategit import *
 
 githubraw_url="https://raw.githubusercontent.com/username/repo/main/file.py" # url raw file
 
