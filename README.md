@@ -5,7 +5,7 @@
 
 
 ```py
-from autoupdategit import *
+from AutoUpdateGit import *
 
 githubraw_url="https://raw.githubusercontent.com/username/repo/main/file.py" # url raw file
 
