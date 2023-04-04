@@ -14,15 +14,17 @@
 pip install AutoUpdateGit
 ```
 
-```py
-from AutoUpdateGit import *
+import AutoUpdateGit
+import requests
 
-githubraw_url="https://raw.githubusercontent.com/username/repo/main/file.py" # url raw file
+ # ссылка на raw файл
 
+githubraw_url = "https://raw.githubusercontent.com/Nelliprav/NikkeBot/main/main.py"
 
-#module usage example
-if update_check(githubraw_url, lang="ru"):
+def update_check(githubraw_url=githubraw_url, lang="ru"):
     r = requests.get(githubraw_url)
     with open(__file__, 'w') as f:
         f.write(r.text)
-```
+
+if __name__ == "__main__":
+    update_check()
