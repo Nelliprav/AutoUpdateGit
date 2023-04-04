@@ -1,5 +1,8 @@
 - lang="ru" - Русский язык модуля
 - lang="en" - English language module
+- lang="ua" - Українська мова модуля
+- lang="ar" - وحدة اللغة العربية
+- lang="kz" - Қазақ тілі модулі
 
 - requests - the module does not need to be imported.
 
