@@ -14,6 +14,7 @@
 pip install AutoUpdateGit
 ```
 
+```py
 import AutoUpdateGit
 import requests
 
@@ -28,3 +29,4 @@ def update_check(githubraw_url=githubraw_url, lang="ru"):
 
 if __name__ == "__main__":
     update_check()
+```
